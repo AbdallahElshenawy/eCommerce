@@ -1,0 +1,32 @@
+2024-11-24 17:37:00.524 +02:00 [INF] App is building..
+2024-11-24 17:37:00.764 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-24 17:37:00.851 +02:00 [INF] App is running
+2024-11-24 17:37:00.979 +02:00 [INF] Now listening on: https://localhost:7077
+2024-11-24 17:37:00.981 +02:00 [INF] Now listening on: http://localhost:5196
+2024-11-24 17:37:00.984 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-24 17:37:00.985 +02:00 [INF] Hosting environment: Development
+2024-11-24 17:37:00.985 +02:00 [INF] Content root path: F:\eCommerce\eCommerce.Host
+2024-11-24 17:37:01.307 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2024-11-24 17:37:01.590 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 143.7797 ms
+2024-11-24 17:37:01.598 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 291.8061ms
+2024-11-24 17:37:01.611 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.js - null null
+2024-11-24 17:37:01.615 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-24 17:37:01.617 +02:00 [INF] HTTP GET /swagger/index.js responded 200 in 1.0954 ms
+2024-11-24 17:37:01.619 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.js - 200 null application/javascript;charset=utf-8 8.2509ms
+2024-11-24 17:37:01.623 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2024-11-24 17:37:01.624 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 8.9332ms
+2024-11-24 17:37:01.651 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.7289ms
+2024-11-24 17:37:01.856 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2024-11-24 17:37:01.976 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 112.4187 ms
+2024-11-24 17:37:01.980 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 124.1019ms
+2024-11-24 17:38:02.653 +02:00 [INF] App is building..
+2024-11-24 17:38:02.790 +02:00 [ERR] App failed to run
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\eCommerce\eCommerce.Host\Program.cs:line 33

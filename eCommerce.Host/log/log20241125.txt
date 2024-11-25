@@ -1,0 +1,64 @@
+2024-11-25 14:38:05.543 +02:00 [INF] App is building..
+2024-11-25 14:38:07.755 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-25 14:38:07.853 +02:00 [INF] App is running
+2024-11-25 14:38:08.154 +02:00 [INF] Now listening on: https://localhost:7077
+2024-11-25 14:38:08.157 +02:00 [INF] Now listening on: http://localhost:5196
+2024-11-25 14:38:08.160 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-25 14:38:08.161 +02:00 [INF] Hosting environment: Development
+2024-11-25 14:38:08.161 +02:00 [INF] Content root path: F:\eCommerce\eCommerce.Host
+2024-11-25 14:38:08.672 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2024-11-25 14:38:10.200 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 115.9274 ms
+2024-11-25 14:38:10.210 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 1541.0451ms
+2024-11-25 14:38:10.246 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2024-11-25 14:38:10.246 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-25 14:38:10.246 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.js - null null
+2024-11-25 14:38:10.267 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 21.5387ms
+2024-11-25 14:38:10.300 +02:00 [INF] HTTP GET /swagger/index.js responded 200 in 41.7399 ms
+2024-11-25 14:38:10.304 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.js - 200 null application/javascript;charset=utf-8 58.1177ms
+2024-11-25 14:38:10.409 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 163.4181ms
+2024-11-25 14:38:10.499 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2024-11-25 14:38:10.632 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 124.5794 ms
+2024-11-25 14:38:10.636 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 136.8699ms
+2024-11-25 14:38:43.679 +02:00 [INF] App is building..
+2024-11-25 14:38:43.800 +02:00 [ERR] App failed to run
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\eCommerce\eCommerce.Host\Program.cs:line 33
+2024-11-25 14:38:57.919 +02:00 [INF] App is building..
+2024-11-25 14:38:58.043 +02:00 [ERR] App failed to run
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\eCommerce\eCommerce.Host\Program.cs:line 33
+2024-11-25 16:19:38.073 +02:00 [INF] App is building..
+2024-11-25 16:19:39.057 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-25 16:19:39.235 +02:00 [INF] App is running
+2024-11-25 16:19:39.350 +02:00 [INF] Now listening on: https://localhost:7077
+2024-11-25 16:19:39.352 +02:00 [INF] Now listening on: http://localhost:5196
+2024-11-25 16:19:39.357 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-25 16:19:39.359 +02:00 [INF] Hosting environment: Development
+2024-11-25 16:19:39.360 +02:00 [INF] Content root path: F:\eCommerce\eCommerce.Host
+2024-11-25 16:19:39.781 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2024-11-25 16:19:40.102 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 124.7322 ms
+2024-11-25 16:19:40.114 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 334.34ms
+2024-11-25 16:19:40.144 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-25 16:19:40.144 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2024-11-25 16:19:40.144 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.js - null null
+2024-11-25 16:19:40.155 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.1229ms
+2024-11-25 16:19:40.156 +02:00 [INF] HTTP GET /swagger/index.js responded 200 in 2.9836 ms
+2024-11-25 16:19:40.161 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.js - 200 null application/javascript;charset=utf-8 17.1902ms
+2024-11-25 16:19:40.552 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 407.7568ms
+2024-11-25 16:19:40.583 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2024-11-25 16:19:40.715 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 127.1211 ms
+2024-11-25 16:19:40.718 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 135.3215ms

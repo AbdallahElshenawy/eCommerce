@@ -1,0 +1,64 @@
+2024-11-24 17:41:52.971 +02:00 [INF] App is building..
+2024-11-24 17:41:53.207 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-24 17:41:53.317 +02:00 [INF] App is running
+2024-11-24 17:41:53.459 +02:00 [INF] Now listening on: https://localhost:7077
+2024-11-24 17:41:53.460 +02:00 [INF] Now listening on: http://localhost:5196
+2024-11-24 17:41:53.464 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-24 17:41:53.465 +02:00 [INF] Hosting environment: Development
+2024-11-24 17:41:53.466 +02:00 [INF] Content root path: F:\eCommerce\eCommerce.Host
+2024-11-24 17:41:53.964 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2024-11-24 17:41:54.143 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 97.1164 ms
+2024-11-24 17:41:54.149 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 185.9173ms
+2024-11-24 17:41:54.163 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-24 17:41:54.163 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.js - null null
+2024-11-24 17:41:54.163 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2024-11-24 17:41:54.173 +02:00 [INF] HTTP GET /swagger/index.js responded 200 in 1.4876 ms
+2024-11-24 17:41:54.175 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.js - 200 null application/javascript;charset=utf-8 11.5239ms
+2024-11-24 17:41:54.175 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.4764ms
+2024-11-24 17:41:54.195 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.9379ms
+2024-11-24 17:41:54.239 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2024-11-24 17:41:54.348 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 101.6231 ms
+2024-11-24 17:41:54.352 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 113.4552ms
+2024-11-24 17:42:42.203 +02:00 [INF] App is building..
+2024-11-24 17:42:42.331 +02:00 [ERR] App failed to run
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\eCommerce\eCommerce.Host\Program.cs:line 33
+2024-11-24 17:42:42.503 +02:00 [INF] App is building..
+2024-11-24 17:42:42.717 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-24 17:42:42.813 +02:00 [INF] App is running
+2024-11-24 17:42:42.917 +02:00 [INF] Now listening on: https://localhost:7077
+2024-11-24 17:42:42.919 +02:00 [INF] Now listening on: http://localhost:5196
+2024-11-24 17:42:42.921 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-24 17:42:42.922 +02:00 [INF] Hosting environment: Development
+2024-11-24 17:42:42.923 +02:00 [INF] Content root path: F:\eCommerce\eCommerce.Host
+2024-11-24 17:42:43.487 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2024-11-24 17:42:43.801 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 191.9763 ms
+2024-11-24 17:42:43.811 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 323.6298ms
+2024-11-24 17:42:43.836 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2024-11-24 17:42:43.836 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.js - null null
+2024-11-24 17:42:43.836 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-24 17:42:43.847 +02:00 [INF] HTTP GET /swagger/index.js responded 200 in 5.1727 ms
+2024-11-24 17:42:43.851 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.js - 200 null application/javascript;charset=utf-8 14.2693ms
+2024-11-24 17:42:43.858 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 21.0504ms
+2024-11-24 17:42:43.874 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.237ms
+2024-11-24 17:42:43.954 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2024-11-24 17:42:44.117 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 158.7153 ms
+2024-11-24 17:42:44.119 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 165.5141ms
+2024-11-24 17:42:55.624 +02:00 [INF] App is building..
+2024-11-24 17:42:55.762 +02:00 [ERR] App failed to run
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\eCommerce\eCommerce.Host\Program.cs:line 33

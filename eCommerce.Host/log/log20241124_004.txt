@@ -1,0 +1,42 @@
+2024-11-24 17:38:02.651 +02:00 [INF] App is building..
+2024-11-24 17:38:02.915 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-24 17:38:03.037 +02:00 [INF] App is running
+2024-11-24 17:38:03.190 +02:00 [INF] Now listening on: https://localhost:7077
+2024-11-24 17:38:03.191 +02:00 [INF] Now listening on: http://localhost:5196
+2024-11-24 17:38:03.195 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-24 17:38:03.196 +02:00 [INF] Hosting environment: Development
+2024-11-24 17:38:03.197 +02:00 [INF] Content root path: F:\eCommerce\eCommerce.Host
+2024-11-24 17:38:03.630 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2024-11-24 17:38:03.806 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 87.9477 ms
+2024-11-24 17:38:03.812 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 182.6921ms
+2024-11-24 17:38:03.828 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2024-11-24 17:38:03.828 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.js - null null
+2024-11-24 17:38:03.828 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-24 17:38:03.836 +02:00 [INF] HTTP GET /swagger/index.js responded 200 in 1.0069 ms
+2024-11-24 17:38:03.840 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.js - 200 null application/javascript;charset=utf-8 11.5361ms
+2024-11-24 17:38:03.844 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 15.5269ms
+2024-11-24 17:38:03.862 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.372ms
+2024-11-24 17:38:03.974 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2024-11-24 17:38:04.096 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 117.7783 ms
+2024-11-24 17:38:04.099 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 124.7453ms
+2024-11-24 17:40:34.044 +02:00 [INF] App is building..
+2024-11-24 17:40:34.298 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-24 17:40:34.425 +02:00 [INF] App is running
+2024-11-24 17:40:34.568 +02:00 [INF] Now listening on: https://localhost:7077
+2024-11-24 17:40:34.569 +02:00 [INF] Now listening on: http://localhost:5196
+2024-11-24 17:40:34.571 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-24 17:40:34.572 +02:00 [INF] Hosting environment: Development
+2024-11-24 17:40:34.572 +02:00 [INF] Content root path: F:\eCommerce\eCommerce.Host
+2024-11-24 17:40:34.960 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2024-11-24 17:40:35.174 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 119.7909 ms
+2024-11-24 17:40:35.181 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 223.9029ms
+2024-11-24 17:40:35.203 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-24 17:40:35.204 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2024-11-24 17:40:35.203 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.js - null null
+2024-11-24 17:40:35.213 +02:00 [INF] HTTP GET /swagger/index.js responded 200 in 1.1004 ms
+2024-11-24 17:40:35.215 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.8637ms
+2024-11-24 17:40:35.217 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.js - 200 null application/javascript;charset=utf-8 13.3043ms
+2024-11-24 17:40:35.240 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.9456ms
+2024-11-24 17:40:35.297 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2024-11-24 17:40:35.412 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 109.8686 ms
+2024-11-24 17:40:35.414 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 116.7856ms

@@ -1,0 +1,167 @@
+2024-11-24 16:28:43.320 +02:00 [INF] App is building..
+2024-11-24 16:28:43.575 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-24 16:28:43.678 +02:00 [INF] App is running
+2024-11-24 16:28:43.828 +02:00 [INF] Now listening on: https://localhost:7077
+2024-11-24 16:28:43.829 +02:00 [INF] Now listening on: http://localhost:5196
+2024-11-24 16:28:43.833 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-24 16:28:43.835 +02:00 [INF] Hosting environment: Development
+2024-11-24 16:28:43.835 +02:00 [INF] Content root path: F:\eCommerce\eCommerce.Host
+2024-11-24 16:28:44.278 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2024-11-24 16:28:44.482 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 106.8140 ms
+2024-11-24 16:28:44.488 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 211.1554ms
+2024-11-24 16:28:44.507 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2024-11-24 16:28:44.507 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-24 16:28:44.507 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.js - null null
+2024-11-24 16:28:44.519 +02:00 [INF] HTTP GET /swagger/index.js responded 200 in 2.8473 ms
+2024-11-24 16:28:44.520 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.2745ms
+2024-11-24 16:28:44.521 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.js - 200 null application/javascript;charset=utf-8 14.2122ms
+2024-11-24 16:28:44.538 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.75ms
+2024-11-24 16:28:44.586 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2024-11-24 16:28:44.718 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 125.5992 ms
+2024-11-24 16:28:44.722 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 135.4376ms
+2024-11-24 16:31:28.641 +02:00 [INF] App is building..
+2024-11-24 16:31:28.811 +02:00 [ERR] App failed to run
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\eCommerce\eCommerce.Host\Program.cs:line 33
+2024-11-24 16:31:28.834 +02:00 [INF] App is building..
+2024-11-24 16:31:29.167 +02:00 [INF] App is running
+2024-11-24 16:31:29.245 +02:00 [ERR] App failed to run
+System.InvalidOperationException: Unable to resolve service for type 'Serilog.Extensions.Hosting.DiagnosticContext' while attempting to activate 'Serilog.AspNetCore.RequestLoggingMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in F:\eCommerce\eCommerce.Host\Program.cs:line 50
+2024-11-24 16:32:11.028 +02:00 [INF] App is building..
+2024-11-24 16:32:11.253 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-24 16:32:11.353 +02:00 [INF] App is running
+2024-11-24 16:32:11.472 +02:00 [INF] Now listening on: https://localhost:7077
+2024-11-24 16:32:11.475 +02:00 [INF] Now listening on: http://localhost:5196
+2024-11-24 16:32:11.478 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-24 16:32:11.480 +02:00 [INF] Hosting environment: Development
+2024-11-24 16:32:11.480 +02:00 [INF] Content root path: F:\eCommerce\eCommerce.Host
+2024-11-24 16:32:11.946 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2024-11-24 16:32:12.154 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 98.2040 ms
+2024-11-24 16:32:12.161 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 215.9046ms
+2024-11-24 16:32:12.184 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.js - null null
+2024-11-24 16:32:12.184 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-24 16:32:12.203 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2024-11-24 16:32:12.206 +02:00 [INF] HTTP GET /swagger/index.js responded 200 in 1.0327 ms
+2024-11-24 16:32:12.209 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.js - 200 null application/javascript;charset=utf-8 24.3831ms
+2024-11-24 16:32:12.213 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 29.3301ms
+2024-11-24 16:32:12.237 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.5548ms
+2024-11-24 16:32:12.309 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2024-11-24 16:32:12.443 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 126.7857 ms
+2024-11-24 16:32:12.446 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 136.1999ms
+2024-11-24 16:32:17.683 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2024-11-24 16:32:17.690 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.2963 ms
+2024-11-24 16:32:17.693 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 10.1933ms
+2024-11-24 16:32:17.715 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.js - null null
+2024-11-24 16:32:17.719 +02:00 [INF] HTTP GET /swagger/index.js responded 200 in 0.3122 ms
+2024-11-24 16:32:17.722 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.js - 200 null application/javascript;charset=utf-8 6.9208ms
+2024-11-24 16:32:17.737 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-24 16:32:17.738 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2024-11-24 16:32:17.740 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 3.3471ms
+2024-11-24 16:32:17.752 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.553ms
+2024-11-24 16:32:17.831 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2024-11-24 16:32:17.838 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 5.0169 ms
+2024-11-24 16:32:17.840 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.603ms
+2024-11-24 17:14:02.950 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7077/api/Authentication/CreateUser - application/json 126
+2024-11-24 17:14:02.957 +02:00 [INF] CORS policy execution successful.
+2024-11-24 17:14:02.963 +02:00 [INF] Executing endpoint 'eCommerce.API.Controllers.AuthenticationController.CreateUser (eCommerce.API)'
+2024-11-24 17:14:02.986 +02:00 [INF] Route matched with {action = "CreateUser", controller = "Authentication", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(eCommerce.Application.DTOs.Identity.CreateUser) on controller eCommerce.API.Controllers.AuthenticationController (eCommerce.API).
+2024-11-24 17:14:03.335 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-11-24 17:14:03.365 +02:00 [INF] Executed action eCommerce.API.Controllers.AuthenticationController.CreateUser (eCommerce.API) in 373.1644ms
+2024-11-24 17:14:03.367 +02:00 [INF] Executed endpoint 'eCommerce.API.Controllers.AuthenticationController.CreateUser (eCommerce.API)'
+2024-11-24 17:14:03.369 +02:00 [INF] HTTP POST /api/Authentication/CreateUser responded 400 in 410.1186 ms
+2024-11-24 17:14:03.375 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7077/api/Authentication/CreateUser - 400 null application/problem+json; charset=utf-8 424.9949ms
+2024-11-24 17:14:15.831 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7077/api/Authentication/CreateUser - application/json 128
+2024-11-24 17:14:15.837 +02:00 [INF] CORS policy execution successful.
+2024-11-24 17:14:15.838 +02:00 [INF] Executing endpoint 'eCommerce.API.Controllers.AuthenticationController.CreateUser (eCommerce.API)'
+2024-11-24 17:14:15.841 +02:00 [INF] Route matched with {action = "CreateUser", controller = "Authentication", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(eCommerce.Application.DTOs.Identity.CreateUser) on controller eCommerce.API.Controllers.AuthenticationController (eCommerce.API).
+2024-11-24 17:14:15.854 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-11-24 17:14:15.857 +02:00 [INF] Executed action eCommerce.API.Controllers.AuthenticationController.CreateUser (eCommerce.API) in 13.171ms
+2024-11-24 17:14:15.860 +02:00 [INF] Executed endpoint 'eCommerce.API.Controllers.AuthenticationController.CreateUser (eCommerce.API)'
+2024-11-24 17:14:15.862 +02:00 [INF] HTTP POST /api/Authentication/CreateUser responded 400 in 23.4381 ms
+2024-11-24 17:14:15.865 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7077/api/Authentication/CreateUser - 400 null application/problem+json; charset=utf-8 34.4863ms
+2024-11-24 17:14:36.713 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7077/api/Authentication/CreateUser - application/json 136
+2024-11-24 17:14:36.717 +02:00 [INF] CORS policy execution successful.
+2024-11-24 17:14:36.719 +02:00 [INF] Executing endpoint 'eCommerce.API.Controllers.AuthenticationController.CreateUser (eCommerce.API)'
+2024-11-24 17:14:36.720 +02:00 [INF] Route matched with {action = "CreateUser", controller = "Authentication", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(eCommerce.Application.DTOs.Identity.CreateUser) on controller eCommerce.API.Controllers.AuthenticationController (eCommerce.API).
+2024-11-24 17:14:36.791 +02:00 [INF] Executed action eCommerce.API.Controllers.AuthenticationController.CreateUser (eCommerce.API) in 68.7504ms
+2024-11-24 17:14:36.795 +02:00 [INF] Executed endpoint 'eCommerce.API.Controllers.AuthenticationController.CreateUser (eCommerce.API)'
+2024-11-24 17:14:36.798 +02:00 [ERR] HTTP POST /api/Authentication/CreateUser responded 500 in 79.1386 ms
+2024-11-24 17:14:36.801 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7077/api/Authentication/CreateUser - 500 null application/json 88.2877ms
+2024-11-24 17:16:45.843 +02:00 [INF] App is building..
+2024-11-24 17:16:46.091 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-24 17:16:46.229 +02:00 [INF] App is running
+2024-11-24 17:16:46.356 +02:00 [INF] Now listening on: https://localhost:7077
+2024-11-24 17:16:46.358 +02:00 [INF] Now listening on: http://localhost:5196
+2024-11-24 17:16:46.363 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-24 17:16:46.365 +02:00 [INF] Hosting environment: Development
+2024-11-24 17:16:46.365 +02:00 [INF] Content root path: F:\eCommerce\eCommerce.Host
+2024-11-24 17:16:46.831 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2024-11-24 17:16:47.036 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 107.0332 ms
+2024-11-24 17:16:47.045 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 215.5836ms
+2024-11-24 17:16:47.080 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.js - null null
+2024-11-24 17:16:47.080 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-24 17:16:47.080 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2024-11-24 17:16:47.086 +02:00 [INF] HTTP GET /swagger/index.js responded 200 in 1.1220 ms
+2024-11-24 17:16:47.095 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.js - 200 null application/javascript;charset=utf-8 15.4937ms
+2024-11-24 17:16:47.101 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 21.0952ms
+2024-11-24 17:16:47.120 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.3668ms
+2024-11-24 17:16:47.183 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2024-11-24 17:16:47.329 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 141.7378 ms
+2024-11-24 17:16:47.331 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 148.0696ms
+2024-11-24 17:24:45.603 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7077/api/Authentication/CreateUser - application/json 136
+2024-11-24 17:24:45.610 +02:00 [INF] CORS policy execution successful.
+2024-11-24 17:24:45.616 +02:00 [INF] Executing endpoint 'eCommerce.API.Controllers.AuthenticationController.CreateUser (eCommerce.API)'
+2024-11-24 17:24:45.641 +02:00 [INF] Route matched with {action = "CreateUser", controller = "Authentication", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(eCommerce.Application.DTOs.Identity.CreateUser) on controller eCommerce.API.Controllers.AuthenticationController (eCommerce.API).
+2024-11-24 17:24:48.365 +02:00 [INF] Executed DbCommand (235ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[Fullname], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-11-24 17:24:48.429 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'eCommerce.Application.DTOs.ServiceResponse'.
+2024-11-24 17:24:48.455 +02:00 [INF] Executed action eCommerce.API.Controllers.AuthenticationController.CreateUser (eCommerce.API) in 2807.4384ms
+2024-11-24 17:24:48.458 +02:00 [INF] Executed endpoint 'eCommerce.API.Controllers.AuthenticationController.CreateUser (eCommerce.API)'
+2024-11-24 17:24:48.460 +02:00 [INF] HTTP POST /api/Authentication/CreateUser responded 400 in 2848.6105 ms
+2024-11-24 17:24:48.471 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7077/api/Authentication/CreateUser - 400 null application/json; charset=utf-8 2868.1224ms
+2024-11-24 17:25:19.899 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7077/api/Authentication/CreateUser - application/json 130
+2024-11-24 17:25:19.904 +02:00 [INF] CORS policy execution successful.
+2024-11-24 17:25:19.905 +02:00 [INF] Executing endpoint 'eCommerce.API.Controllers.AuthenticationController.CreateUser (eCommerce.API)'
+2024-11-24 17:25:19.907 +02:00 [INF] Route matched with {action = "CreateUser", controller = "Authentication", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(eCommerce.Application.DTOs.Identity.CreateUser) on controller eCommerce.API.Controllers.AuthenticationController (eCommerce.API).
+2024-11-24 17:25:19.987 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[Fullname], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-11-24 17:25:19.990 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'eCommerce.Application.DTOs.ServiceResponse'.
+2024-11-24 17:25:19.992 +02:00 [INF] Executed action eCommerce.API.Controllers.AuthenticationController.CreateUser (eCommerce.API) in 83.0917ms
+2024-11-24 17:25:19.995 +02:00 [INF] Executed endpoint 'eCommerce.API.Controllers.AuthenticationController.CreateUser (eCommerce.API)'
+2024-11-24 17:25:19.996 +02:00 [INF] HTTP POST /api/Authentication/CreateUser responded 400 in 91.7131 ms
+2024-11-24 17:25:19.999 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7077/api/Authentication/CreateUser - 400 null application/json; charset=utf-8 100.0652ms
+2024-11-24 17:37:00.536 +02:00 [INF] App is building..
+2024-11-24 17:37:00.660 +02:00 [ERR] App failed to run
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\eCommerce\eCommerce.Host\Program.cs:line 33
